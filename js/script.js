@@ -44,6 +44,7 @@ btnElList.forEach(btnEl => {
     btnEl.addEventListener('click', () => {
         document.querySelector('.selected')?.classList.remove('selected')
         btnEl.classList.add('selected');
+        console.log("color change")
     });
 });
 
