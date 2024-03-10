@@ -1079,7 +1079,7 @@ nav{
     height: 962px;
     padding-top: 86px;
 }
-
+/* use media queries to change this whole section into a canvas controlled by javascript to be changing images for mobile version */
 .outer-9 > h2{
     text-align: center;
     margin-bottom: 95px;
