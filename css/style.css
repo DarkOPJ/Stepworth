@@ -330,11 +330,6 @@ nav{
 .nav-side-menu-options > li > a:hover{
     color: rgb(238, 26, 54);
 }
-.bottom-menu{
-    font-weight: bold;
-    padding-left: 25px;
-    margin-top: 100px;
-}
 
 
 .outer-1{
@@ -962,16 +957,12 @@ nav{
     opacity: 1;
 }
 .socials{
+    /* width: auto;
+    height: auto; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 10px;
-}
-.socials-for-phone{
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-
 }
 .socials > a{
     width: 46px;
@@ -1182,7 +1173,6 @@ nav{
 .outer-11{
     height: auto;
     padding-top: 100px;
-    padding-bottom: 100px;
 }
 
 .inner-11-1{
@@ -1274,7 +1264,7 @@ nav{
 
 
 .outer-12{
-    padding-bottom: 122px;
+    padding: 122px 0 122px 0;
 }
 
 .inner-12-1{
@@ -1437,4 +1427,30 @@ nav{
 .end-parag{
     margin: 23px 0 0 7.5%;
     color: rgb(255, 255, 255);
+}
+
+
+/* About Page */
+.a-outer-1{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(255, 106, 0, 0.3),rgb(255, 107, 0, 0.3)),
+    url(/images/about-page/about-picture-1.jpg) center/cover no-repeat;
+}
+.a-inner-1{
+    background: linear-gradient(rgba(35, 15, 0, 0.5),rgba(35, 15, 0, 0.5));
+    height: inherit;
+    display:grid;
+    place-items: center;
+}
+.a-inner-1 >div > h1, .a-inner-1 > div > h4{
+    color: white;
+    text-align: center;
+    max-width: 720px;
+}
+.a-inner-1 > div > h4{
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 15px;
+    padding-inline: 10px;
 }
