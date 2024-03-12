@@ -1437,20 +1437,185 @@ nav{
     background: linear-gradient(rgba(255, 106, 0, 0.3),rgb(255, 107, 0, 0.3)),
     url(/images/about-page/about-picture-1.jpg) center/cover no-repeat;
 }
-.a-inner-1{
+.a-inner-1-1{
     background: linear-gradient(rgba(35, 15, 0, 0.5),rgba(35, 15, 0, 0.5));
     height: inherit;
     display:grid;
     place-items: center;
 }
-.a-inner-1 >div > h1, .a-inner-1 > div > h4{
+.a-inner-1-1 >div > h1, .a-inner-1-1 > div > h4{
     color: white;
     text-align: center;
     max-width: 720px;
 }
-.a-inner-1 > div > h4{
+.a-inner-1-1 > div > h4{
     font-weight: 500;
     font-size: 16px;
     margin-top: 15px;
     padding-inline: 10px;
+}
+
+.a-outer-2{
+    padding-block: 95px;
+    height: auto;
+}
+.a-inner-2{
+    width: 100%;
+    padding-block: 13px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+}
+.a-inner-2-1{
+    max-width: 600px;
+    padding-inline: 15px;
+}
+.a-inner-2-1 > h4{
+    color: rgb(255, 107, 0);
+    display: flex;
+}
+.a-inner-2-1 > h3{
+    max-width: 80%;
+    margin-block: 5px 10px;
+}
+.a-inner-2-1 > p{
+    font-size: 14px;
+}
+.p-middle{
+    margin-block: 7px;
+}
+.a-inner-2-2{
+    padding-bottom: 40px;
+    display: grid;
+    place-items: center;
+}
+.board-training{
+    background: url(/images/about-page/about-picture-2.jpg) no-repeat;
+    width: 416px;
+    height: 248px;
+    border-radius: 20px;
+    position: relative;
+}
+.board-training::before{
+    content: "";
+    width: 119px;
+    height: 124px;
+    background: linear-gradient(180deg, rgb(238, 133, 0) , rgb(244, 173, 82));
+    border-radius: 100vh 100vh 0 0;
+    z-index: -1;
+    position: absolute;
+    top: -62px;
+    left: -33px;
+}
+.board-training::after{
+    content: "";
+    width: 119px;
+    height: 124px;
+    background: linear-gradient(180deg, rgb(255, 107, 0), rgb(238, 124, 3) );
+    border-radius: 0 0 100vh 100vh;
+    z-index: -1;
+    position: absolute;
+    bottom: -66px;
+    right: -28px;
+}
+
+.a-outer-3{
+    height: auto;
+    padding: 0 25px 162px;
+}
+.a-outer-3 > h4{
+    color: rgb(255, 107, 0);
+    margin-left: 9.5%;
+    display: flex;
+}
+.a-inner-3-1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.a-inner-3-1s{
+    width: 465px;
+    height: 527px;
+    margin-top: 93px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 50px 3px rgb(226, 226, 226);
+    position: relative;
+}
+.a-inner-3-1-1-mis{
+    margin-top: 80px;
+}
+.back-svg-1-1{
+    color: rgb(2, 130, 53);
+}
+.back-svg-1-2{
+    color: rgb(10, 128, 56);
+}
+.front-svg-1-1{
+    color: rgb(2, 130, 53);
+}
+
+.a-inner-3-1-1-vis{
+    margin: 125px 0 0 10px;
+}
+.back-svg-2-1{
+    color: rgb(6, 116, 197);
+}
+.front-svg-2-1{
+    color: rgb(6, 116, 197);
+}
+.a-inner-3-1-1-val{
+    margin: 120px 0 0 0;
+}
+.back-svg-3-1{
+    color: rgb(246, 116, 1);
+}
+.back-svg-3-2{
+    color: rgb(247, 114, 1);
+}
+.back-svg-3-3{
+    color: rgb(244, 117, 2);
+}
+.front-svg-3-1{
+    stop-color: #FF6B00;
+}
+.front-svg-3-2{
+    stop-color: #EE7C03;
+}
+.a-inner-3-1-2{
+    height: inherit;
+    padding: 50px 40px 0;
+    position: absolute;
+    inset: 0;
+}
+.a-inner-3-1-2 > p{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 50px;
+}
+.svg-and-title{
+    text-align: center;
+}
+.svg-and-title > h2{
+    font-size: 32px;
+    margin-top: 20px;
+}
+.a-inner-3-1-2-val{
+    height: inherit;
+    padding: 25px 30px 0;
+    position: absolute;
+    inset: 0;
+}
+.a-inner-3-1-2-val > p{
+    font-size: 14px;
+    margin-top: 30px;
+    display: list-item;
+    list-style-type: disc;
+}
+
+
+
+
+.a-outer-7-padding{
+    padding-block: 0 180px;
 }
