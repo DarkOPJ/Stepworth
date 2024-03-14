@@ -1521,11 +1521,11 @@ nav{
 
 .a-outer-3{
     height: auto;
-    padding: 0 25px 162px;
+    padding-bottom: 162px;
 }
 .a-outer-3 > h4{
     color: rgb(255, 107, 0);
-    margin-left: 9.5%;
+    margin-left: 8.9%;
     display: flex;
 }
 .a-inner-3-1{
@@ -1536,8 +1536,10 @@ nav{
 }
 .a-inner-3-1s{
     width: 465px;
-    height: 527px;
-    margin-top: 93px;
+    height: auto;
+    margin-top: 40px;
+    margin-inline: 25px;
+    padding-bottom: 50px;
     border-radius: 10px;
     box-shadow: 2px 2px 50px 3px rgb(226, 226, 226);
     position: relative;
@@ -1554,7 +1556,6 @@ nav{
 .front-svg-1-1{
     color: rgb(2, 130, 53);
 }
-
 .a-inner-3-1-1-vis{
     margin: 125px 0 0 10px;
 }
@@ -1583,7 +1584,7 @@ nav{
     stop-color: #EE7C03;
 }
 .a-inner-3-1-2{
-    height: inherit;
+    height: auto;
     padding: 50px 40px 0;
     position: absolute;
     inset: 0;
@@ -1601,7 +1602,7 @@ nav{
     margin-top: 20px;
 }
 .a-inner-3-1-2-val{
-    height: inherit;
+    height: auto;
     padding: 25px 30px 0;
     position: absolute;
     inset: 0;
@@ -1613,6 +1614,147 @@ nav{
     list-style-type: disc;
 }
 
+.a-outer-4{
+    padding-bottom: 35px;
+    height: auto;
+}
+.a-inner-4{
+    margin-inline: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+}
+.a-outer-4 > h4{
+    color: rgb(255, 107, 0);
+    margin-left: 8.9%;
+    margin-bottom: 14px;
+    display: flex;
+}
+.a-inner-4-2{
+    max-width: 500px;
+    padding: 0 14px 25px;
+    display: grid;
+    place-items: center;
+}
+.a-inner-4-2 > div > p{
+    font-size: 13px;
+}
+.p-middle-2{
+    margin-block: 12px;
+}
+.a-inner-4-1{
+    max-width: 550px;
+    height: 460px;
+    border-radius: 10.25px;
+    box-shadow: 1px 1px 30px 1px rgb(219, 219, 219);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    position: relative;
+}
+.structure-1{
+    height: 85px;
+    margin-inline: 25px;
+    flex: 100%;
+}
+.functional-director{
+    background: rgba(242, 72, 34, 0.5);
+    width: 48%;
+    height: inherit;
+    margin-inline: auto;
+    border-radius: 6px;
+    display: grid;
+    place-items: center;
+}
+.structure-2{
+    height: 74px;
+    margin-inline: 25px;
+    display: flex;
+    flex: 100%;
+    justify-content: space-between;
+}
+.structure-2 > div{
+    width: 41.6%;
+    height: inherit;
+    border-radius: 6px;
+    display: grid;
+    place-items: center;
+}
+.optic-eng{
+    background-color: rgba(151, 71, 255, 0.5);
+}
+.technicians{
+    background-color: rgba(13, 154, 255, 0.7);
+}
+.functional-director > .p-inter, .optic-eng > .p-inter, .technicians > .p-inter{
+    font-size: 17px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.8);
+}
+.connector-lines{
+    position: absolute;
+    align-self: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.connector-lines > div{
+    display: flex;
+}
+.connector-lines > div > svg{
+    margin: 0;
+    color: rgb(179, 179, 179);
+}
+.line-one{
+    transform: translateX(1.5px);
+}
+.line-two{
+    transform: translateX(-1.5px);
+}
+
+.a-outer-5{
+    height: auto;
+    background-color: rgb(43, 41, 56);
+    padding: 80px 0 75px;
+}
+.a-outer-5 > h4{
+    color: rgb(255, 107, 0);
+    margin-left: 8.9%;
+    margin-bottom: 30px;
+    display: flex;
+}
+.a-outer-5 > h5{
+    color: rgb(217, 230, 255);
+    margin-inline: 8%;
+    text-align: center;
+    line-height: 30px;
+}
+.a-inner-5-1{
+    width: 70%;
+    height: auto;
+    margin: 40px auto 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* background-color: #e9da0181; */
+}
+.approach-wrapper{
+    padding: 0 10px;
+}
+.approach{
+    width: 250px;
+    height: 240px;
+    background: rgb(32, 30, 45);
+    margin: 30px 0;
+    padding: 12px 20.5px 0 20.5px;
+    /* display: grid; */
+    /* place-items: center; */
+}
+.approach > p{
+    color: rgb(164, 179, 212);
+}
+.approach-text{
+    text-align: center;
+}
 
 
 
