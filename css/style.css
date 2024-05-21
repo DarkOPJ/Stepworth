@@ -1761,3 +1761,205 @@ nav{
 .a-outer-7-padding{
     padding-block: 0 180px;
 }
+
+
+
+/* Our Services */
+.o-outer-1{
+    height: auto;
+    background-color: #EBEBEB;
+    background-image: url(/images/our-services/outer-circle-bg.png);
+    background-repeat: no-repeat;
+    background-position: 92% 100%;
+    background-size: 60%;
+    padding-inline: 20px;
+    position: relative;
+}
+.o-inner-1{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.o-inner-1-1{
+    padding: 30px 0;
+    max-width: fit-content;
+    min-width: min-content;
+}
+.o-inner-1-img{
+    /* for mobile size the width should be 400px */
+    /* width: 600px; */
+    width: 47%;
+    align-self: flex-end;
+}
+.new-color-effect{
+    background: linear-gradient(to left, #86244C,#EE7C03);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    max-width: 570px;
+    display: block;
+}
+.o-inner-1-1 > .parag-1{
+    max-width: 480px;
+    margin: 30px 0 0;
+}
+
+
+.o-outer-2{
+    height: auto;
+    padding: 30px 50px;
+}
+.o-inner-2{
+    padding: 70px 0;
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.o-inner-2-wrap-rev{
+    flex-wrap: wrap-reverse;
+}
+.o-inner-2-1-imgs{
+    width: 405px;
+    height: 334px;
+    position: relative;
+}
+.o-i-2-1-imgs-1, .o-i-2-1-imgs-6{
+    background: linear-gradient(to right, #A92C5F,#EE7C03);
+    width: 186px;
+    height: 176px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.o-i-2-1-imgs-1{
+    padding: 30px;
+}
+.o-i-2-1-imgs-1 > h4{
+    font-weight: bold;
+    color: white;
+}
+.o-i-2-1-imgs-1 > .o-i-2-1-imgs-1-head{
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+.o-i-2-1-imgs-first-img{
+    background: url(/images/our-services/pic1.jpg) center/cover no-repeat;
+}
+.o-i-2-1-imgs-2, .o-i-2-1-imgs-7{
+    background: url(/images/our-services/pic2.jpg) center/cover no-repeat;
+    width: 216px;
+    height: 92px;
+    position: absolute;
+    top: 0;
+    right: 41px;
+}
+.o-i-2-1-imgs-3, .o-i-2-1-imgs-8{
+    background: url(/images/our-services/pic3.jpg) center/cover no-repeat;
+    width: 168px;
+    height: 176px;
+    position: absolute;
+    bottom: 0;
+    left: 9px;
+}
+.o-i-2-1-imgs-4, .o-i-2-1-imgs-9{
+    background: url(/images/our-services/pic4.png) center/cover no-repeat;
+    width: 231px;
+    height: 226px;
+    position: absolute;
+    right: 0;
+    bottom: 24px;
+    z-index: 1;
+}
+.o-i-2-1-imgs-6{
+    background: url(/images/our-services/pic6.jpg) center/cover no-repeat;
+}
+.o-i-2-1-imgs-7{
+    background: url(/images/our-services/pic7.jpg) center/cover no-repeat;
+}
+.o-i-2-1-imgs-8{
+    background: url(/images/our-services/pic8.png) center/cover no-repeat;
+}
+.o-i-2-1-imgs-9{
+    background: url(/images/our-services/pic9.jpg) center/cover no-repeat;
+}
+.o-inner-2-1-text{
+    max-width: 500px;
+    height: 334px;
+}
+.o-in-2-1-text{
+    /* for mobile view remove this*/
+    margin-left: 40px;
+}
+.o-inner-2-1-text > p{
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 25px;
+}
+.bubbles{
+    background: url(/images/our-services/bubble.png) center/contain no-repeat;
+    background-size: 400px;
+    max-width: 1100px;
+    margin-inline: auto;
+    background-position: 100% 0;
+    display: block;
+    padding-bottom: 0;
+}
+.number-tag{
+    width: 54px;
+    height: 54px;
+    background: linear-gradient(180deg, rgb(255, 107, 0), rgb(238, 124, 3));
+    transform: rotateZ(45deg);
+}
+.number-tag::after{
+    content: "1";
+    color: white;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 28px;
+    position: absolute;
+    transform: rotateZ(-45deg);
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+}
+.n-tag2::after{
+    content: "2";
+}
+.n-tag3::after{
+    content: "3";
+}
+.n-tag4::after{
+    content: "4";
+}
+.backg-and-image{
+    background: linear-gradient(to bottom, #EE8500, #F4AD52);
+    width: 365px;
+    height: 325px;
+}
+.the-image{
+    width: 371px;
+    height: 295px;
+    background: url(/images/our-services/pic5.png) center/cover no-repeat;
+    margin: 15px 0 15px 15px;
+}
+.o-i-2-1-text-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.o-i-2-1-text-head > h3{
+    max-width: 80%;
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 850px) {
+    .o-inner-1-img{
+        width: 70%;
+    }
+}
